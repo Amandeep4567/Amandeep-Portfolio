@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,4 +8,20 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+}
+
+.home {
+  background-color: hsla(166, 100%, 93%, 1);
+  background-image: radial-gradient(
+      at 15% 50%,
+      hsla(210, 46%, 84%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 68% 92%, hsla(285, 59%, 95%, 1) 0px, transparent 50%),
+    radial-gradient(at 24% 19%, hsla(227, 92%, 91%, 1) 0px, transparent 50%);
 }
