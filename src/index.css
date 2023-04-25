@@ -17,23 +17,6 @@ body {
 
 /* Navbar */
 
-.main_heading {
-  -webkit-text-stroke: 1.5px rgb(6, 6, 6);
-  -webkit-text-fill-color: transparent;
-}
-
-.web-dev {
-  -webkit-text-stroke: 0.7px rgb(0, 0, 0);
-  -webkit-text-fill-color: transparent;
-}
-
-.home {
-  background-color: hsla(166, 100%, 93%, 1);
-  background-image: radial-gradient(
-      at 15% 50%,
-      hsla(210, 46%, 84%, 1) 0px,
-      transparent 50%
-    ),
-    radial-gradient(at 68% 92%, hsla(285, 59%, 95%, 1) 0px, transparent 50%),
-    radial-gradient(at 24% 19%, hsla(227, 92%, 91%, 1) 0px, transparent 50%);
+.bg-color-gradient {
+  background-color: #000000;
 }

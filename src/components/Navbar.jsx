@@ -1,4 +1,6 @@
 import React from "react";
+import { useState } from "react";
+import { logo, menu, close } from "../assets";
 
 export const navLinks = [
   {
@@ -24,17 +26,50 @@ export const navLinks = [
 ];
 
 const Navbar = () => {
+  const [toggle, setToggle] = useState(false);
+
   return (
-    <nav className="w-full flex py-5 justify-between items-center navbar">
-      <div>
-        <h1 className="text-5xl main_heading">
-          A.D.K{" "}
-          <p className="text-[12px] flex justify-center web-dev">
-            Web Developer
-          </p>{" "}
-        </h1>
+    <nav className="w-full flex justify-between items-center navbar">
+      <img src={logo} alt="amandeep" className="w-[300px] h-[150px] z-10" />
+      <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+        {navLinks.map((nav, index) => (
+          <li
+            key={nav.id}
+            className={`font-semibold cursor-pointer text-[18px] ${
+              index === navLinks.length - 1 ? "mr-0" : "mr-10"
+            } text-black`}
+          >
+            <a href={`#${nav.id}`}>{nav.title}</a>
+          </li>
+        ))}
+      </ul>
+
+      <div className="sm:hidden flex flex-1 justify-end items-center">
+        <img
+          src={toggle ? close : menu}
+          alt="menu"
+          className="w-[28px] h-[28px] object-contain z-10"
+          onClick={() => setToggle((prev) => !prev)}
+        />
+        <div
+          className={`${
+            toggle ? "flex" : "hidden"
+          } p-6 bg-color-gradient absolute top-0 right-0 w-full h-screen sidebar`}
+        >
+          <ul className="list-none absolute flex flex-col justify-center">
+            {navLinks.map((nav, index) => (
+              <li
+                key={nav.id}
+                className={`font-poppins font-semibold cursor-pointer text-[55px] ${
+                  index === navLinks.length - 1 ? "mr-0" : "mb-4"
+                } text-white`}
+              >
+                <a href={`#${nav.id}`}>{nav.title}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1"></ul>
     </nav>
   );
 };

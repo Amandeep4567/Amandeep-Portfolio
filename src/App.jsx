@@ -14,7 +14,7 @@ import {
 const App = () => (
   <div className="w-full overflow-hidden">
     <div className="home w-full h-screen">
-      <div className="pl-6">
+      <div className="pl-1 pr-6">
         <div className="">
           <Navbar />
         </div>
