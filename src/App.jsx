@@ -4,6 +4,7 @@ import {
   EducationAndCertification,
   HomePage,
   Navbar,
+  AboutMe,
   Preloader,
   ProjectSection,
   TechnicalSkills,
@@ -13,7 +14,7 @@ import {
 const App = () => (
   <div className="w-full overflow-hidden">
     <div className="home w-full h-screen">
-      <div className="">
+      <div className="pl-6">
         <div className="">
           <Navbar />
         </div>
@@ -28,6 +29,7 @@ const App = () => (
 
     <div className="">
       <div className="">
+        <AboutMe />
         <ProjectSection />
         <TechnicalSkills />
         <EducationAndCertification />

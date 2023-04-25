@@ -15,6 +15,18 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+/* Navbar */
+
+.main_heading {
+  -webkit-text-stroke: 1.5px rgb(6, 6, 6);
+  -webkit-text-fill-color: transparent;
+}
+
+.web-dev {
+  -webkit-text-stroke: 0.7px rgb(0, 0, 0);
+  -webkit-text-fill-color: transparent;
+}
+
 .home {
   background-color: hsla(166, 100%, 93%, 1);
   background-image: radial-gradient(
