@@ -20,8 +20,8 @@ const App = () => (
         </div>
       </div>
 
-      <div className="">
-        <div className="">
+      <div className="flex justify-center items-start">
+        <div className="w-full">
           <HomePage />
         </div>
       </div>
