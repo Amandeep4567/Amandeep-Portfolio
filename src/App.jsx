@@ -27,7 +27,7 @@ const App = () => (
       </div>
     </div>
 
-    <div className="">
+    <div className="mt-12">
       <div className="">
         <AboutMe />
         <ProjectSection />

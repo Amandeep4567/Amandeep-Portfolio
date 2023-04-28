@@ -30,12 +30,16 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex justify-between items-center navbar">
-      <img src={logo} alt="amandeep" className="w-[300px] h-[150px] z-10" />
+      <img
+        src={logo}
+        alt="amandeep"
+        className="w-[220px] h-[100px] ml-4 mt-2"
+      />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-semibold cursor-pointer text-[18px] ${
+            className={`font-medium cursor-pointer text-[18px] ${
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             } text-black`}
           >
