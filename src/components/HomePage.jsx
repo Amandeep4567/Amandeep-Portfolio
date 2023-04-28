@@ -35,7 +35,7 @@ const HomePage = () => {
         <div className="flex justify-center mt-10">
           <p className="text-xl">
             Building beautiful and reliable websites that reflect your brand and
-            deliver for your busines.
+            deliver for your business.
           </p>
         </div>
       </div>
