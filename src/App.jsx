@@ -30,8 +30,8 @@ const App = () => (
     <div className="mt-12">
       <div className="">
         <AboutMe />
-        <ProjectSection />
         <TechnicalSkills />
+        <ProjectSection />
         <EducationAndCertification />
         <WorkExperience />
         <ContactInformation />

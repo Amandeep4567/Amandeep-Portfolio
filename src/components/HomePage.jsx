@@ -19,12 +19,12 @@ const HomePage = () => {
             className="w-[230px] h-[250px] rounded-full"
           />
         </div>
-        <div className="">
-          <h1 className="text-[68px] font-semibold mt-4 flex justify-center">
+        <div className="mx-8">
+          <h1 className="text-[50px] text-center sm:text-[68px] font-semibold mt-4 flex justify-center">
             Amandeep Kumar
           </h1>
           <div className="flex justify-center mb-2 ">
-            <h4 className="font-normal text-[16px] px-2 bg-slate-200 rounded-full">
+            <h4 className="font-normal text-[18px] sm:text-[16px] px-2 bg-slate-200 rounded-full">
               Web Developer
             </h4>
             {/* <h4 className="font-medium text-[16px] px-2 ml-2 bg-slate-200 rounded-full">
@@ -32,14 +32,14 @@ const HomePage = () => {
             </h4> */}
           </div>
         </div>
-        <div className="flex justify-center mt-10">
-          <p className="text-xl">
+        <div className="flex justify-center mt-8 sm:mt-10">
+          <p className="text-center text-[18px] sm:text-xl">
             Building beautiful and reliable websites that reflect your brand and
             deliver for your business.
           </p>
         </div>
       </div>
-      <div className="icon_section ml-10">
+      <div className="icon_section ml-10 hidden sm:block">
         <div className="flex flex-col fixed ">
           <a target="_blank" href="https://www.instagram.com/amandeep5647/">
             <FontAwesomeIcon icon={faInstagram} className="icon mb-4" />
@@ -60,7 +60,7 @@ const HomePage = () => {
         </div>
       </div>
       <div className="email_section right-6 mr-10">
-        <div className="fixed">
+        <div className="fixed hidden sm:block">
           <div>
             <p className="font-semibold">
               <a href="mailto:amankumaradk@gmail.com">amankumaradk@gmail.com</a>

@@ -33,7 +33,7 @@ const Navbar = () => {
       <img
         src={logo}
         alt="amandeep"
-        className="w-[220px] h-[100px] ml-4 mt-2"
+        className="w-[220px] h-[100px] ml-0 sm:ml-4 mt-2"
       />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
