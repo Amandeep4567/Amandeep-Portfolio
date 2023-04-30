@@ -37,3 +37,9 @@ body {
   top: 300px;
   writing-mode: vertical-lr;
 }
+
+/* Technical Section */
+
+.iconTech {
+  font-size: 35px;
+}
