@@ -12,7 +12,7 @@ import {
 
 const TechnicalSkills = () => {
   return (
-    <section className="w-full mb-24">
+    <section className="w-full">
       <div className="bg-black w-[640px] sm:w-[1100px] h-[2px] sm:ml-28"></div>
       <div className="sm:ml-28 mt-2 mb-2 flex">
         <div className="">
@@ -27,7 +27,7 @@ const TechnicalSkills = () => {
           <div className="flex">
             <div className="bg-black rounded-sm mx-4 pr-4 flex">
               <FontAwesomeIcon
-                color="blue"
+                color="white"
                 icon={faReact}
                 className="iconTech m-2"
               />
@@ -37,7 +37,7 @@ const TechnicalSkills = () => {
             </div>
             <div className="bg-black rounded-sm mx-4 pr-4 flex">
               <FontAwesomeIcon
-                color="yellow"
+                color="white"
                 icon={faJs}
                 className="iconTech m-2"
               />
@@ -47,7 +47,7 @@ const TechnicalSkills = () => {
             </div>
             <div className="bg-black rounded-sm mx-4 pr-4 flex">
               <FontAwesomeIcon
-                color="orange"
+                color="white"
                 icon={faHtml5}
                 className="iconTech m-2"
               />
@@ -57,7 +57,7 @@ const TechnicalSkills = () => {
             </div>
             <div className="bg-black rounded-sm mx-4 pr-4 flex">
               <FontAwesomeIcon
-                color="blue"
+                color="white"
                 icon={faCss3}
                 className="iconTech m-2"
               />
@@ -67,7 +67,7 @@ const TechnicalSkills = () => {
             </div>
             <div className="bg-black rounded-sm mx-4 pr-4 flex">
               <FontAwesomeIcon
-                color="purple"
+                color="white"
                 icon={faBootstrap}
                 className="iconTech m-2"
               />
@@ -77,7 +77,7 @@ const TechnicalSkills = () => {
             </div>
             <div className="bg-black rounded-sm mx-4 pr-4 flex">
               <FontAwesomeIcon
-                color="green"
+                color="white"
                 icon={faFigma}
                 className="iconTech m-2"
               />
@@ -87,7 +87,7 @@ const TechnicalSkills = () => {
             </div>
             <div className="bg-black rounded-sm mx-4 pr-4 flex">
               <FontAwesomeIcon
-                color="red"
+                color="white"
                 icon={faGitAlt}
                 className="iconTech m-2"
               />
