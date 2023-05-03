@@ -13,6 +13,7 @@
 body {
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
+  cursor: url(./assets/cursor.png), auto;
 }
 
 /* Navbar */
