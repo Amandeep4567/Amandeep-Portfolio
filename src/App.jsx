@@ -1,14 +1,12 @@
 import React from "react";
 import {
   ContactInformation,
-  EducationAndCertification,
   HomePage,
   Navbar,
   AboutMe,
   Preloader,
   ProjectSection,
   TechnicalSkills,
-  WorkExperience,
 } from "./components";
 
 const App = () => (
@@ -32,8 +30,6 @@ const App = () => (
         <AboutMe />
         <TechnicalSkills />
         <ProjectSection />
-        <EducationAndCertification />
-        <WorkExperience />
         <ContactInformation />
       </div>
     </div>
