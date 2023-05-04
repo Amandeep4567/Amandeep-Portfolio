@@ -3,13 +3,15 @@ import { about } from "../assets";
 
 const AboutMe = () => {
   return (
-    <section className="w-full mb-2 sm:mt-20 flex justify-center items-start">
+    <section className="w-full mb-2 sm:mt-10 flex justify-center items-start">
       <div className="">
         <div className="flex justify-center sm:justify-start sm:ml-[100px] mb-8">
-          <h1 className="font-semibold text-[36px] ">About Amandeep</h1>
+          <h1 className="font-semibold sm:relative sm:top-14 text-[36px] ">
+            About Amandeep
+          </h1>
         </div>
         <div className="flex mx-4 justify-center text-justify sm:ml-[100px] ">
-          <div className="text-[18px] mr-34 sm:w-[700px]">
+          <div className="text-[18px] mr-34 sm:relative sm:top-16 sm:w-[700px]">
             <p className="flex sm:text-justify sm:mt-8 font-medium">
               I'm Amandeep Kumar, a computer science student with a passion for
               front-end development. I'm skilled in React, JavaScript, CSS,
