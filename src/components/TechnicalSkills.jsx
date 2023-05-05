@@ -13,7 +13,7 @@ import {
 const TechnicalSkills = () => {
   return (
     <section className="w-full">
-      <div className="bg-black w-[640px] sm:w-[1100px] h-[2px] sm:ml-28"></div>
+      <div className="bg-black w-[640px] sm:w-[82%] h-[2px] sm:ml-28"></div>
       <div className="sm:ml-28 mt-2 mb-2 flex">
         <div className="">
           <h1 className="m-2 font-semibold text-2xl">Tech: </h1>
@@ -23,6 +23,7 @@ const TechnicalSkills = () => {
           width="82.5%"
           direction="left"
           scrollamount="8"
+          loop="infinite"
         >
           <div className="flex">
             <div className="bg-black rounded-sm mx-4 pr-4 flex">
@@ -98,7 +99,7 @@ const TechnicalSkills = () => {
           </div>
         </marquee>
       </div>
-      <div className="bg-black w-[640px] sm:w-[1100px] h-[2px] sm:ml-28"></div>
+      <div className="bg-black w-[640px] sm:w-[82%] h-[2px] sm:ml-28"></div>
     </section>
   );
 };
