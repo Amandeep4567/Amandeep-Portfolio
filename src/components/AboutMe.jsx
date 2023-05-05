@@ -3,7 +3,10 @@ import { about } from "../assets";
 
 const AboutMe = () => {
   return (
-    <section className="w-full mb-2 sm:mt-10 flex justify-center items-start">
+    <section
+      id="about"
+      className="w-full mb-2 sm:mt-10 flex justify-center items-start"
+    >
       <div className="">
         <div className="flex justify-center sm:justify-start sm:ml-[100px] mb-8">
           <h1 className="font-semibold sm:relative sm:top-14 text-[36px] ">

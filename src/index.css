@@ -10,8 +10,11 @@
   box-sizing: border-box;
 }
 
-body {
+html {
   scroll-behavior: smooth;
+}
+
+body {
   font-family: "Roboto", sans-serif;
   cursor: url(./assets/cursor.png), auto;
 }

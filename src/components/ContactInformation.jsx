@@ -4,7 +4,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const ContactInformation = () => {
   return (
-    <section className="w-full mt-24 mb-10">
+    <section id="contact" className="w-full mt-24 mb-10">
       <div className="flex ml-[100px]">
         <h1 className="font-semibold text-[36px]">Contact Me</h1>
       </div>

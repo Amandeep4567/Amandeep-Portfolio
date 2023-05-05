@@ -5,7 +5,7 @@ import { faEye } from "@fortawesome/free-solid-svg-icons";
 
 const ProjectSection = () => {
   return (
-    <section className="w-full mt-24">
+    <section id="project" className="w-full mt-24">
       <div className="flex ml-[100px]">
         <h1 className="font-semibold text-[36px]">My Projects</h1>
       </div>
