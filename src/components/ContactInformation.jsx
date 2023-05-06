@@ -11,18 +11,18 @@ const ContactInformation = () => {
       <div className="flex justify-center mt-10">
         <div>
           <div className="flex justify-center">
-            <h1 className="font-semibold text-8xl text-gray-200">
+            <h1 className="font-semibold text-5xl sm:text-8xl text-gray-200">
               amandeepkumar
             </h1>
           </div>
-          <div className="flex justify-center relative bottom-11">
+          <div className="flex justify-center relative bottom-6 sm:bottom-11">
             <a href="mailto:amankumaradk@gmail.com">
-              <h1 className="font-semibold text-4xl z-10">
+              <h1 className="font-semibold text-2xl sm:text-4xl z-10">
                 amankumaradk@gmail.com
               </h1>
             </a>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center text-center">
             <p className="font-medium sm:mx-0 mx-2 text-lg pb-4">
               Let's create something great! Contact me to discuss your next web
               project and bring your ideas to life.

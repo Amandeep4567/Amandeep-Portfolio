@@ -9,12 +9,12 @@ const ProjectSection = () => {
       <div className="flex ml-[100px]">
         <h1 className="font-semibold text-[36px]">My Projects</h1>
       </div>
-      <div className="flex flex-wrap justify-evenly mx-24">
-        <div className="bg-black text-white w-[25%] rounded-[10px] pt-28 pl-4 pr-8  ">
-          <h1 className="font-semibold text-[30px] text-gray-300">
+      <div className="sm:flex sm:flex-wrap sm:justify-evenly mt-10 sm:mx-24">
+        <div className="w-[94%] mx-2.5 sm:mx-0 bg-black text-white sm:w-[25%] rounded-[10px] pt-28 pl-4 pr-8">
+          <h1 className="font-semibold text-[38px] sm:text-[30px] text-gray-300">
             Pokedex Game
           </h1>
-          <p className="font-normal text-[15px] text-gray-200">
+          <p className="font-normal text-[17px] sm:text-[15px] text-gray-200">
             Collect and battle with cute pocket monsters on cards.
           </p>
           <div className="flex">
@@ -32,11 +32,11 @@ const ProjectSection = () => {
             </a>
           </div>
         </div>
-        <div className="bg-black text-white w-[25%] rounded-[10px] pt-28 pl-4 pr-8 mx-10">
-          <h1 className="font-semibold text-[30px] text-gray-300">
+        <div className="w-[94%] mx-2.5 bg-black text-white sm:w-[25%] rounded-[10px] pt-28 pl-4 pr-8 sm:mx-10 sm:mt-0 mt-4">
+          <h1 className="font-semibold text-[38px] sm:text-[30px] text-gray-300">
             Whac-a-mole
           </h1>
-          <p className="font-normal text-[15px] text-gray-200">
+          <p className="font-normal text-[17px] sm:text-[15px] text-gray-200">
             Whacking moles with mallet, game of speed and skill.
           </p>
           <div className="flex">
@@ -54,11 +54,11 @@ const ProjectSection = () => {
             </a>
           </div>
         </div>
-        <div className="bg-black text-white w-[25%] rounded-[10px] pt-28 pl-4 pr-8 ">
-          <h1 className="font-semibold text-[30px] text-gray-300">
+        <div className="w-[94%] mx-2.5 sm:mx-0 bg-black text-white sm:w-[25%] rounded-[10px] pt-28 pl-4 pr-8 sm:mt-0 mt-4">
+          <h1 className="font-semibold text-[38px] sm:text-[30px] text-gray-300">
             Space-Invaders
           </h1>
-          <p className="font-normal text-[15px] text-gray-200">
+          <p className="font-normal text-[17px] sm:text-[15px] text-gray-200">
             Invaders from space, shoot them down with skill and pace.
           </p>
           <div className="flex">
@@ -76,11 +76,11 @@ const ProjectSection = () => {
             </a>
           </div>
         </div>
-        <div className="bg-black text-white w-[25%] rounded-[10px] pt-28 pl-4 pr-8  mt-8">
-          <h1 className="font-semibold text-[30px] text-gray-300">
+        <div className="w-[94%] mx-2.5 sm:mx-0 bg-black text-white sm:w-[25%] rounded-[10px] pt-28 pl-4 pr-8 sm:mt-8 mt-4">
+          <h1 className="font-semibold text-[38px] sm:text-[30px] text-gray-300">
             Gym-Website
           </h1>
-          <p className="font-normal text-[15px] text-gray-200">
+          <p className="font-normal text-[17px] sm:text-[15px] text-gray-200">
             A temple for the body, sweat, and hard work.
           </p>
           <div className="flex">
@@ -98,11 +98,11 @@ const ProjectSection = () => {
             </a>
           </div>
         </div>
-        <div className="bg-black text-white w-[25%] rounded-[10px] pt-28 pl-4 pr-8  mt-8 mx-10">
-          <h1 className="font-semibold text-[30px] text-gray-300">
+        <div className="w-[94%] mx-2.5 bg-black text-white sm:w-[25%] rounded-[10px] pt-28 pl-4 pr-8 sm:mt-8 sm:mx-10 mt-4">
+          <h1 className="font-semibold text-[38px] sm:text-[30px] text-gray-300">
             Next-Tech-Lab
           </h1>
-          <p className="font-normal text-[15px] text-gray-200">
+          <p className="font-normal text-[17px] sm:text-[15px] text-gray-200">
             Coming Soon...
           </p>
           <div className="flex">
@@ -114,11 +114,11 @@ const ProjectSection = () => {
             </a>
           </div>
         </div>
-        <div className="bg-black text-white w-[25%] rounded-[10px] pt-28 pl-4 pr-8  mt-8">
-          <h1 className="font-semibold text-[30px] text-gray-300">
+        <div className="w-[94%] mx-2.5 sm:mx-0 bg-black text-white sm:w-[25%] rounded-[10px] pt-28 pl-4 pr-8 sm:mt-8 mt-4">
+          <h1 className="font-semibold text-[38px] sm:text-[30px] text-gray-300">
             Fitness-web-App
           </h1>
-          <p className="font-normal text-[15px] text-gray-200">
+          <p className="font-normal text-[17px] sm:text-[15px] text-gray-200">
             Coming soon...
           </p>
           <div className="flex">
