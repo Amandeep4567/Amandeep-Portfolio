@@ -7,7 +7,7 @@ const AboutMe = () => {
       id="about"
       className="w-full mb-2 sm:mt-10 flex justify-center items-start"
     >
-      <div className="">
+      <div className="w-full">
         <div className="flex justify-center sm:justify-start sm:ml-[100px] mb-8">
           <h1 className="font-semibold sm:relative sm:top-14 text-[36px] ">
             About Amandeep
@@ -27,10 +27,7 @@ const AboutMe = () => {
               and work on innovative projects that push the boundaries of what's
               possible.
             </p>
-            <button
-              type="submit"
-              className="flex sm:justify-start mt-6 bg-black text-white sm:mt-12 p-2 "
-            >
+            <button className="bg-white text-black text-[15px] font-medium mt-11 rounded-[10px] border border-black px-16 py-3">
               <a
                 target="_blank"
                 href="https://firebasestorage.googleapis.com/v0/b/portfolio-35de5.appspot.com/o/Amandeep-Resume.pdf?alt=media&token=09d7e733-9d32-42dc-bb42-aa842f327388"

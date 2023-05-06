@@ -9,43 +9,30 @@ const ContactInformation = () => {
         <h1 className="font-semibold text-[36px]">Contact Me</h1>
       </div>
       <div className="flex justify-center mt-10">
-        <div className="">
-          <div className="">
-            <h1 className="flex justify-center font-semibold text-3xl p-4">
-              Amandeep Kumar
+        <div>
+          <div className="flex justify-center">
+            <h1 className="font-semibold text-8xl text-gray-200">
+              amandeepkumar
             </h1>
-            <p className="font-medium sm:mx-0 mx-2 text-center text-xl pb-4">
+          </div>
+          <div className="flex justify-center relative bottom-11">
+            <a href="mailto:amankumaradk@gmail.com">
+              <h1 className="font-semibold text-4xl z-10">
+                amankumaradk@gmail.com
+              </h1>
+            </a>
+          </div>
+          <div className="flex justify-center">
+            <p className="font-medium sm:mx-0 mx-2 text-lg pb-4">
               Let's create something great! Contact me to discuss your next web
               project and bring your ideas to life.
             </p>
           </div>
-          <div className="">
+          <div className="mt-10">
             <div className="flex justify-center">
-              <div className="mt-4">
-                <a href="https://github.com/Amandeep4567">
-                  <FontAwesomeIcon
-                    icon={faGithub}
-                    className="contactIcon relative top-1 mr-4"
-                  />
-                </a>
-                <a
-                  className="bg-black text-white p-3 font-normal text-lg"
-                  href="mailto:amankumaradk@gmail.com"
-                >
-                  Say Namaste!
-                </a>
-                <a href="https://www.linkedin.com/in/amandeep-kumar-242b5b230/">
-                  <FontAwesomeIcon
-                    icon={faLinkedin}
-                    className="contactIcon relative top-1 ml-4"
-                  />
-                </a>
-              </div>
-            </div>
-            <div className="flex justify-center mt-10">
-              <p className="font-semibold sm:text-4xl text-2xl">
-                amankumaradk@gmail.com
-              </p>
+              <button className="bg-black text-white text-[15px] rounded-[10px] px-16 py-3">
+                <a href="mailto:amankumaradk@gmail.com">Say Hello👋</a>
+              </button>
             </div>
           </div>
         </div>
