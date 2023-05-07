@@ -25,20 +25,11 @@ body {
   background-color: #000000;
 }
 
-.icon_section {
-  position: absolute;
-  float: left;
-  top: 344px;
-}
-
 .icon {
   font-size: 22px;
 }
 
 .email_section {
-  position: absolute;
-  float: right;
-  top: 300px;
   writing-mode: vertical-lr;
 }
 

@@ -12,7 +12,7 @@ const HomePage = () => {
   return (
     <section className="">
       <div className="">
-        <div className="flex justify-center ">
+        <div className="flex justify-center">
           <img
             src={profile}
             alt="amandeep"
@@ -39,8 +39,8 @@ const HomePage = () => {
           </p>
         </div>
       </div>
-      <div className="icon_section ml-10 hidden sm:block">
-        <div className="flex flex-col fixed ">
+      <div className="relative ml-10 hidden sm:block">
+        <div className="fixed bottom-0.5 flex flex-col">
           <a target="_blank" href="https://www.instagram.com/amandeep5647/">
             <FontAwesomeIcon icon={faInstagram} className="icon mb-4" />
           </a>
@@ -59,8 +59,8 @@ const HomePage = () => {
           <div className="bg-black h-[120px] w-[3px] ml-2"></div>
         </div>
       </div>
-      <div className="email_section right-6 mr-10">
-        <div className="fixed hidden sm:block">
+      <div className="relative email_section mr-10">
+        <div className=" bottom-[115px] right-6 fixed hidden sm:block">
           <div>
             <p className="font-semibold">
               <a href="mailto:amankumaradk@gmail.com">amankumaradk@gmail.com</a>
