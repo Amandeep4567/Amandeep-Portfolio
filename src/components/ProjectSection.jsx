@@ -10,6 +10,22 @@ const ProjectSection = () => {
         <h1 className="font-semibold text-[36px]">My Projects</h1>
       </div>
       <div className="sm:flex sm:flex-wrap sm:justify-evenly mt-10 sm:mx-24">
+        <div className="w-[94%] mx-2.5 sm:mx-0 bg-black text-white sm:w-[25%] rounded-[10px] pt-28 pl-4 pr-8 sm:mt-8 mt-4">
+          <h1 className="font-semibold text-[38px] sm:text-[30px] text-gray-300">
+            Hack SRM 4.0
+          </h1>
+          <p className="font-normal text-[17px] sm:text-[15px] text-gray-200">
+            Website for the National Level Hackathon called Hack SRM 4.0
+          </p>
+          <div className="flex">
+            <a target="_blank" href="https://github.com/Amandeep4567/hacksrm">
+              <FontAwesomeIcon icon={faGithub} className="iconTech m-2" />
+            </a>
+            <a target="_blank" href="https://hacksrm.tech/">
+              <FontAwesomeIcon icon={faEye} className="iconTech m-2" />
+            </a>
+          </div>
+        </div>
         <div className="w-[94%] mx-2.5 sm:mx-0 bg-black text-white sm:w-[25%] rounded-[10px] pt-28 pl-4 pr-8">
           <h1 className="font-semibold text-[38px] sm:text-[30px] text-gray-300">
             Pokedex Game
@@ -104,22 +120,6 @@ const ProjectSection = () => {
           </h1>
           <p className="font-normal text-[17px] sm:text-[15px] text-gray-200">
             Coming Soon...
-          </p>
-          <div className="flex">
-            <a target="" href="">
-              <FontAwesomeIcon icon={faGithub} className="iconTech m-2" />
-            </a>
-            <a target="" href="">
-              <FontAwesomeIcon icon={faEye} className="iconTech m-2" />
-            </a>
-          </div>
-        </div>
-        <div className="w-[94%] mx-2.5 sm:mx-0 bg-black text-white sm:w-[25%] rounded-[10px] pt-28 pl-4 pr-8 sm:mt-8 mt-4">
-          <h1 className="font-semibold text-[38px] sm:text-[30px] text-gray-300">
-            Fitness-web-App
-          </h1>
-          <p className="font-normal text-[17px] sm:text-[15px] text-gray-200">
-            Coming soon...
           </p>
           <div className="flex">
             <a target="" href="">
