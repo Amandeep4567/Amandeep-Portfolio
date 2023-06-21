@@ -2,7 +2,6 @@ import React from "react";
 import { profile } from "../assets";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faInstagram,
   faGithub,
   faLinkedin,
   faTwitter,
@@ -41,9 +40,6 @@ const HomePage = () => {
       </div>
       <div className="relative ml-10 hidden sm:block">
         <div className="fixed bottom-0.5 flex flex-col">
-          <a target="_blank" href="https://www.instagram.com/amandeep5647/">
-            <FontAwesomeIcon icon={faInstagram} className="icon mb-4" />
-          </a>
           <a target="_blank" href="https://github.com/Amandeep4567">
             <FontAwesomeIcon icon={faGithub} className="icon mb-4" />
           </a>

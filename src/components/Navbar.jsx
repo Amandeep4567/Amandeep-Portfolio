@@ -17,7 +17,8 @@ export const navLinks = [
   },
   {
     id: "links",
-    title: "Social Links",
+    title1: "Social Links",
+    link: "https://linktr.ee/amandeep_kumar",
   },
 ];
 
@@ -42,6 +43,12 @@ const Navbar = () => {
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
+
+        <li className="font-medium cursor-pointer text-[18px] text-black">
+          <a target="_blank" href={navLinks[3].link}>
+            {navLinks[3].title1}
+          </a>
+        </li>
       </ul>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -67,6 +74,11 @@ const Navbar = () => {
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
+            <li className="font-poppins font-semibold cursor-pointer text-[55px] text-white">
+              <a target="_blank" href={navLinks[3].link}>
+                {navLinks[3].title1}
+              </a>
+            </li>
           </ul>
         </div>
       </div>
